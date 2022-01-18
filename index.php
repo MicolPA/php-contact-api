@@ -17,7 +17,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Contact CRUD</title>
+    <title>Contact API</title>
   </head>
   <body>
 
@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="my-3 p-3 bg-body rounded shadow-sm">
-        <h6 class="border-bottom pb-2 mb-0">Contactos</h6>
+        <h6 class="border-bottom pb-2 mb-0">Lista de contactos</h6>
         <?php foreach ($allcontact as $contact): ?>
           <?php $i = rand(0, 3); ?>
             <div class="d-flex text-muted pt-3">
