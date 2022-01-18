@@ -28,8 +28,5 @@ class Conexion{
 		return $this->conexion;		
 	}
 
-	public function close(){
-		$this->conexion = null;
-	}
 
 }
